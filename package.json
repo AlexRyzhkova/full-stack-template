@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "postinstall": "cd client && npm install",
-    "build": "cd client && npm run build",
+    "build": "cd client && npm run build && npm run build-storybook",
     "test": "npm run lint && cd client && npm test",
     "prettify": "prettier --write .",
     "lint": "eslint . --ext .js",
@@ -17,8 +17,8 @@
     "url": "git+https://github.com/AlexRyzhkova/full-stack-template.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Alexandra Ryzhkova",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AlexRyzhkova/full-stack-template/issues"
   },
